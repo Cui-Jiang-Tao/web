@@ -1,0 +1,637 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?7kkyc2');
+    src: url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+        url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+        url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1190px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background-color: rgb(246, 246, 246);
+}
+
+header {
+    background-color: black;
+}
+
+.shortcut {
+    height: 30px;
+    background-color: rgb(227, 228, 229);
+    border-bottom: 1px solid rgb(221, 221, 221);
+    font-size: 12px;
+    line-height: 30px;
+}
+
+.shortcut a {
+    color: rgb(153, 153, 153);
+}
+
+.shortcut a:hover {
+    color: rgb(200, 22, 35);
+}
+
+.shortcut .fm {
+    color: rgb(241, 2, 21);
+}
+
+.shortcut .fm:hover {
+    color: rgb(241, 2, 21);
+}
+
+.city {
+    margin-left: 200px;
+}
+
+.shortcut li {
+    float: left;
+    margin-right: 15px;
+}
+
+.shortcut i {
+    font-family: 'icomoon';
+    font-style: normal;
+}
+
+.shortcut .jdmobile {
+    position: relative;
+}
+
+.shortcut .jdmobile div {
+    background: url(../img/mobile.png);
+    position: absolute;
+    bottom: -70px;
+    z-index: 999;
+}
+
+.shortcut .jdmobile:hover div {
+    width: 60px;
+    height: 60px;
+}
+
+.city i {
+    color: rgb(241, 2, 21);
+}
+
+.space {
+    width: 1px;
+    height: 12px;
+    border-left: 1px solid rgb(153, 153, 153);
+    margin-top: 10px;
+}
+
+.middle {
+    height: 140px;
+    position: relative;
+
+}
+
+.logo {
+    position: absolute;
+    top: -31px;
+}
+
+.logo a {
+    display: block;
+    width: 190px;
+    height: 170px;
+    background: rgb(255, 255, 255) url(../img/logo.png) no-repeat;
+}
+
+.form {
+    position: absolute;
+    width: 550px;
+    height: 35px;
+    left: 320px;
+    top: 26px;
+}
+
+.form input[type=text] {
+    outline: none;
+    width: 500px;
+    height: 35px;
+    border: 1px solid rgb(241, 2, 21);
+    padding: 10px 20px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.form button {
+    width: 50px;
+    height: 35px;
+    float: left;
+    outline: none;
+    border: 0;
+    background-color: rgb(241, 2, 21);
+}
+
+.form button i {
+    font-family: 'icomoon';
+    font-style: normal;
+    color: rgb(255, 255, 255);
+}
+
+.shopCar {
+    position: absolute;
+    right: 94px;
+    top: 26px;
+    width: 190px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid rgb(204, 204, 204);
+    text-align: center;
+    color: rgb(241, 2, 21);
+    font-size: 12px;
+}
+
+.shopCar i {
+    font-family: 'icomoon';
+    font-style: normal;
+}
+
+.shopCar a {
+    color: rgb(241, 2, 21);
+
+}
+
+.shopCar span {
+    position: absolute;
+    background-color: rgb(241, 2, 21);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    top: 5px;
+    height: 15px;
+    line-height: 15px;
+    width: 15px;
+}
+
+.hotwords {
+    position: absolute;
+    bottom: 55px;
+    left: 320px;
+}
+
+.hotwords a {
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    margin-left: 5px;
+}
+
+.hotwords a:first-child {
+    color: rgb(241, 2, 21);
+    margin-left: 0;
+}
+
+.hotwords a:hover {
+    color: rgb(203, 22, 35);
+}
+
+.hotwords a:first-child:hover {
+    color: rgb(241, 2, 21);
+}
+
+.navitems {
+    position: absolute;
+    left: 200px;
+    bottom: 10px;
+}
+
+.navitems a {
+    margin-left: 30px;
+    font-size: 16px;
+    color: rgb(85, 85, 85);
+    font-weight: 700;
+}
+
+.navitems span {
+    display: inline-block;
+    margin-right: -15px;
+    margin-left: 15px;
+    border-right: 1px solid rgb(204, 204, 204);
+    height: 12px;
+    width: 1px;
+}
+
+.super {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.grid {
+    height: 480px;
+    position: relative;
+}
+
+.grid .ad {
+    position: absolute;
+    width: 250px;
+    height: 480px;
+    left: -250px;
+    top: 0;
+}
+
+.grid .ad img {
+    vertical-align: middle;
+}
+
+.grid .ad div {
+    background: url(../img/ad-r.jpg) no-repeat;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    z-index: 999;
+}
+
+.grid .ad:hover div {
+    width: 990px;
+    height: 480px;
+}
+
+.grid-left {
+    width: 192px;
+    height: 480px;
+    background-color: rgb(110, 101, 104);
+    color: rgb(255, 255, 255);
+    padding: 12px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.grid-left li {
+    height: 27px;
+    line-height: 27px;
+    padding-left: 12px;
+}
+
+.grid-left li:hover {
+    background-color: rgb(156, 150, 152);
+}
+
+.grid-left li a {
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.grid-left li a:hover {
+    color: rgb(241, 2, 21);
+}
+
+.grid-middle {
+    margin-left: 10px;
+}
+
+.grid-middle-top {
+    widows: 790px;
+    height: 340px;
+    position: relative;
+}
+
+.grid-middle-top ul {
+    width: 176px;
+    height: 22px;
+    background-color: rgb(162, 235, 254);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.grid-middle-top ul li {
+    width: 12px;
+    height: 12px;
+    margin: 4px 0 4px 9px;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.grid-middle-top ul li:hover {
+    background-color: rgb(203, 22, 35);
+    cursor: pointer;
+}
+
+.grid-middle-bottom {
+    margin-top: 10px;
+}
+
+.grid-right {
+    width: 192px;
+    height: 480px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.login {
+    padding: 20px;
+    position: relative;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.login-top {
+    margin-left: 54px;
+    margin-bottom: 20px;
+    width: 96px;
+    height: 36px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgb(102, 102, 102);
+}
+
+.login-top a {
+    line-height: 25px;
+}
+
+.login-top div {
+    background: url(../img/sprite_userinfo@1x.png) no-repeat -70px 0;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    top: 15px;
+    left: 20px;
+}
+
+.login-top img {
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.login-bottom a {
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: rgb(241, 2, 21);
+    border: 1px solid rgb(241, 2, 21);
+}
+
+.login-bottom a:hover {
+    background-color: rgb(241, 2, 21);
+    color: rgb(255, 255, 255);
+}
+
+.news {
+    height: 154px;
+    width: 192px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+    color: rgb(153, 153, 153);
+}
+
+.news a {
+    color: rgb(153, 153, 153);
+}
+
+.news a:hover {
+    color: rgb(241, 2, 21);
+}
+
+.news-top {
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding: 7px 14px;
+    width: 192px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.news-top a {
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.news-top a:first-child {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid rgba(153, 153, 153, .4);
+}
+
+.news-top a:last-child {
+    float: right;
+}
+
+.news-bottom {
+    padding: 14px;
+}
+
+.news-bottom a {
+    height: 22px;
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.expand {
+    height: 207px;
+    width: 192px;
+
+}
+
+.expand ul {
+    overflow: hidden;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    padding-top: 10px;
+}
+
+.expand ul:last-child {
+    border-bottom: 0;
+}
+
+.expand li {
+    float: left;
+    width: 47px;
+    height: 59px;
+}
+
+.expand li a {
+    display: block;
+    font-size: 12px;
+    text-align: center;
+}
+
+.expand li i {
+    display: block;
+    margin-left: 15px;
+    width: 18px;
+    height: 23px;
+    background: url(../img/sprite_fs@1x.png) -5px -88px;
+}
+
+.expand li span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: rgb(234, 234, 234);
+    height: 500px;
+}
+
+.service {
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid rgb(222, 222, 222);
+}
+
+.service li {
+    float: left;
+    width: 280px;
+    height: 120px;
+    line-height: 120px;
+    position: relative;
+}
+
+.service li h5 {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 43px;
+    text-indent: -9999px;
+    background: url(../img/ico.png) no-repeat;
+}
+
+.service li p {
+    text-align: center;
+    font-weight: 700;
+}
+
+.help {
+    border-bottom: 1px solid rgb(222, 222, 222);
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+    padding: 26px 0 10px 0;
+    overflow: hidden;
+}
+
+.help a:hover {
+    color: rgb(200, 22, 35);
+}
+
+.help dl {
+    width: 192px;
+    float: left;
+}
+
+.help dt {
+    margin-bottom: 16px;
+}
+
+.help dd a {
+    display: block;
+    color: rgb(102, 102, 102);
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.help-right {
+    width: 200px;
+    height: 150px;
+    background: url(../img/ico_footer.png);
+    float: right;
+}
+
+.help-right h5 {
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.help-right p {
+    font-size: 12px;
+    width: 176px;
+    height: 56px;
+    line-height: 18px;
+}
+
+.help-right a {
+    float: right;
+    font-size: 12px;
+    margin-right: 20px;
+    color: rgb(102, 102, 102);
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright span {
+    height: 12px;
+    width: 1;
+    border-right: 1px solid rgb(102,102,102);
+    margin: 0 10px;
+}
+
+.copyright-top p a {
+    display: inline-block;
+    font-size: 12px;
+    margin: 15px 0;
+    padding:0 10px;
+    color: rgb(102,102,102);
+    border-right: 1px solid rgb(102,102,102);
+}
+
+.copyright-top p a:last-child {
+    border-right: 0;
+}
+
+.copyright-top a:hover {
+    color: rgb(200, 22, 35);
+}
+
+.copyright-middle {
+    font-size: 12px;
+    color: rgb(102,102,102);
+}
+
+.copyright-middle p {
+    height: 20px;
+}
+
+.copyright-bottom {
+    margin-top: 15px;
+}
+
+.copyright-bottom a {
+    display: inline-block;
+    width: 103px;
+    height: 33px;
+    background: url(../img/ico_footer.png) no-repeat 0 -150px;
+}
